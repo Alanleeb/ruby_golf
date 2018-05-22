@@ -1,11 +1,15 @@
-def multiples(x,y)
-  x = x
-  y = y
- c.last < y
- c = [] << x * i
- i++
+def multiple(u,m)
+a = []
+  i = 0
+  while i < m
+    i += 1
+    a << i
+  end
+ a.each do |x|
+    if x % u == 0
+      puts x
+    else
+    end
+  end
 end
-end
-num = 4
-max = 100
-multiples(num, max)
+multiple(10,100)
